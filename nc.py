@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # === CONFIGURATION ===
 
 BOT_TOKEN = '7781462274:AAGxABKvSqKcSp9Y9PdJo-A_wcTW0XGoz3I'  # Replace with your bot token
-ADMIN_ID = 6140583954 7383077317            # Replace with your Telegram user ID
+admin_ids = ["7383077317", "6240348610", "6188354219", "1066744659", "8159441634"]      # Replace with your Telegram user ID
 USER_FILE = "authorized_users.txt"  # File to store user IDs
 admin_ids = {ADMIN_ID}              # Admin user IDs set
 
